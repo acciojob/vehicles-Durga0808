@@ -1,22 +1,23 @@
 package com.driver;
 
 public class Boat implements WaterVehicle{
-    private String name;
-    private int capacity;
+    private String VehicleName;
+    private int VehicleCapacity;
 
     public Boat() {
+
     }
 
     public Boat(String name, int capacity) {
-        this.name = name;
-        this.capacity = capacity;
+        this.VehicleName = name;
+        this.VehicleCapacity = capacity;
     }
 
     public String getVehicleName() {
-        return this.name;
+        return this.VehicleName;
     }
 
     public int getVehicleCapacity() {
-        return this.capacity;
+        return this.VehicleCapacity;
     }
 }
